@@ -16,11 +16,13 @@
     --fs-md: 20px;
     --fs-lg: 21.74px;
     --fs-xl: 25px;
+    --fs-xxl:30px;
     --fs-2xl: 50px;
     --fs-3xl: 70px;
     /* ================== font clr========== */
     --fc-darkblue: #000B1B;
     --fc-white: #FFFFFF;
+    --fc-grey:#80848C;
 }
 
 /* ========================== color ============================== */
@@ -29,6 +31,9 @@
 }
 .color-white{
     color: var(--fc-white);
+}
+.color-grey{
+    color: var(--fc-grey);
 }
 
 /* ================================= font- size ======================================= */
@@ -54,6 +59,9 @@
 
 .text-25 {
     font-size: var(--fs-xl);
+}
+.text-30{
+    font-size: var(--fs-xxl);
 }
 
 .text-50 {
@@ -182,6 +190,31 @@
 }
 .flex-grow{
     flex-grow: 1 !important;
+}
+.max-w-574{
+    max-width: 574px;
+}
+.text-line{
+    text-decoration: line-through !important;
+}
+.pb-48{
+    padding-bottom: 48px;
+}
+.btnn{
+    border: transparent;
+    background: var(--fc-white);
+    padding: 10px 20px;
+    border-radius: 45.5px;
+}
+.pt-130{
+    padding-top: 130px;
+}
+.my-63{
+    margin-top: 63px;
+    margin-bottom: 52px;
+}
+.gap-23{
+    gap: 23px;
 }
 
 
