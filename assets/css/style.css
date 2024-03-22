@@ -154,6 +154,20 @@
 .pt-26{
     padding-top: 26px;
 }
+.underline::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background: var(--fc-white);
+    left: 0;
+    bottom: -4px;
+    transition: all 200ms linear;
+}
+
+.underline:hover::after {
+    width: 100%;
+}
 @media (max-width:992px) {
     .overFlowHidden {
         overflow: hidden;
