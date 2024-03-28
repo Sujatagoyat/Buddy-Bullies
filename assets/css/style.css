@@ -24,6 +24,7 @@
     --fc-white: #FFFFFF;
     --fc-grey: #80848C;
     --fc-blue: #031227;
+    --fc-lightgrey:#B3B8BE;
 
 }
 
@@ -38,6 +39,9 @@
 
 .color-grey {
     color: var(--fc-grey);
+}
+.color-lightgrey{
+    color: var(--fc-lightgrey);
 }
 
 /* ================================= font- size ======================================= */
@@ -238,7 +242,7 @@
     margin: 0 auto;
 }
 
-.mb-146{
+.mb-146 {
     margin-bottom: 146px;
 }
 
@@ -305,7 +309,8 @@
     position: relative;
     border-radius: 6px;
 }
-.max-w-786{
+
+.max-w-786 {
     max-width: 786px;
 }
 
@@ -315,19 +320,23 @@
     max-width: 830px !important;
     --bs-accordion-bg: none !important;
 }
+
 .accordion-button:not(.collapsed) {
     background: var(--fc-blue) !important;
     color: var(--fc-white) !important;
 }
+
 .accordion-item:first-of-type>.accordion-header .accordion-button {
     border-radius: 200px !important;
 }
+
 .accordion-button {
     background: var(--fc-blue) !important;
     border-radius: 200px !important;
     padding: 20px 30px !important;
     margin-bottom: 20px !important;
 }
+
 .accordion-button::after {
     flex-shrink: 0;
     width: var(--bs-accordion-btn-icon-width);
@@ -339,53 +348,68 @@
     background-size: var(--bs-accordion-btn-icon-width);
     transition: var(--bs-accordion-btn-icon-transition);
 }
+
 .accordion-button:focus {
     box-shadow: none !important;
 }
+
 .accordion-body {
-   padding-top: 0px !important;
-   padding-bottom: 21px !important;
+    padding-top: 0px !important;
+    padding-bottom: 21px !important;
 }
+
 /* ======================================= team ====================================== */
-.pt-32{
+.pt-32 {
     padding-top: 32px;
 }
-.w-312{
+
+.w-312 {
     max-width: 312px;
 }
-.h-312{
+
+.h-312 {
     height: 312px;
 }
-.w-293{
+
+.w-293 {
     max-width: 293px;
 }
-.h-312{
-height: 312px;
+
+.h-312 {
+    height: 312px;
 }
+
 /* ========================================================== footer ============================================== */
 
 
-.mb-10{
+.mb-10 {
     margin-bottom: 10px !important;
 }
-.gap-13{
+
+.gap-13 {
     gap: 13px;
 }
-.mt-100{
+
+.mt-100 {
     margin-top: 100px !important;
 }
-.mt-440{
+
+.mt-440 {
     margin-top: 440px !important;
 }
-.zoom{
+
+.zoom {
     transition: 0.2s linear;
 }
+
 .zoom:hover {
     scale: 1.3;
 }
-.mb-30{
+
+.mb-30 {
     margin-bottom: 30px;
 }
+
 /* .mt-lg-121{
     margin-top: 121px;
 } */
@@ -396,12 +420,77 @@ height: 312px;
 .max-w-547 {
     max-width: 547px;
 }
-.pt-50{
+
+.pt-50 {
     padding-top: 50px;
 }
- ul {
+
+ul {
     padding-left: 0 !important;
 }
+
+/* ========================================= card section================================= */
+.max-w-347 {
+    max-width: 347px;
+}
+
+.w-117 {
+    max-width: 117px;
+}
+
+.h-145 {
+    min-height: 145px;
+}
+
+.box {
+    max-width: 426px;
+    width: 100%;
+    min-height: 511px;
+    border-radius: 20px;
+    background: var(--fc-blue);
+    padding: 39px 39px 0px 40px;
+}
+
+.pt-44 {
+    padding-top: 44px;
+}
+
+.pb-24 {
+    padding-bottom: 24px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+.pt-41{
+    padding-top: 41px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 768px) {
@@ -410,7 +499,8 @@ height: 312px;
     .timeline::after {
         left: 31px;
     }
-    .mb-146{
+
+    .mb-146 {
         margin-bottom: 0;
     }
 
@@ -504,7 +594,8 @@ height: 312px;
         position: relative;
         top: 0;
     }
-    .bg-clr-blue{
+
+    .bg-clr-blue {
         background: var(--fc-blue);
     }
 }
@@ -513,6 +604,7 @@ height: 312px;
     .text-70 {
         font-size: var(--fs-2xl);
     }
+
     .text-50 {
         font-size: var(--fs-2xl);
     }
@@ -535,7 +627,7 @@ height: 312px;
     }
 
     .pt-lg-130 {
-        padding-top: 130px;
+        padding-top: 150px;
     }
 
     .my-lg-63 {
@@ -552,28 +644,39 @@ height: 312px;
         padding-top: 63px;
         padding-bottom: 63px;
     }
-    .max-w-404{
+
+    .max-w-404 {
         max-width: 404px;
     }
-    .pt-lg-141{
+
+    .pt-lg-141 {
         padding-top: 141px;
     }
-    .pb-lg-41{
+
+    .pb-lg-41 {
         padding-bottom: 41px;
     }
-    .footer-bg-img{
+
+    .footer-bg-img {
         background-image: url(../image/footer-bg-img.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .pt-lg-200{
+
+    .pt-lg-200 {
         padding-top: 200px;
     }
-    .max-w-338{
+
+    .max-w-338 {
         max-width: 338px;
     }
-    .mb-lg-221{
+
+    .mb-lg-221 {
         margin-bottom: 221px;
+    }
+
+    .pt-lg-127 {
+        padding-top: 127px;
     }
 }
