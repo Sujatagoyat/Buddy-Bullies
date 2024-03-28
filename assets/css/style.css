@@ -254,6 +254,17 @@
     right: -127px;
     bottom: -49px;
 }
+.img-ellipse{
+    width: 233px;
+    height: 233px;
+    background: var(--fc-skyblue);
+    filter: blur(227px);
+    position: absolute;
+    right: 290px;
+    top: 226px;
+    z-index: -1;
+}
+
 
 /* =============================== roadmap ========================================== */
 .py-30 {
