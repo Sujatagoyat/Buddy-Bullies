@@ -25,6 +25,8 @@
     --fc-grey: #80848C;
     --fc-blue: #031227;
     --fc-lightgrey:#B3B8BE;
+    --fc-skyblue: #009DFF;
+
 
 }
 
@@ -243,11 +245,29 @@
 .svg-hover:hover {
     transform: translatey(-8px);
 }
+.mint-ellipse{
+    width: 233px;
+    height: 233px;
+    background: var(--fc-skyblue);
+    filter: blur(200px);
+    position: absolute;
+    right: -127px;
+    bottom: -49px;
+}
 
 /* =============================== roadmap ========================================== */
 .py-30 {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.roadmap-ellipse{
+    width: 233px;
+    height: 233px;
+    background: var(--fc-skyblue);
+    filter: blur(187px);
+    position: absolute;
+    left: -127px;
+    top: 228px;
 }
 
 .timeline {
@@ -329,6 +349,16 @@
 }
 
 /* ======================================= FAQ Accordion ============================================== */
+.faq-ellipse{
+    width: 233px;
+    height: 233px;
+    background: var(--fc-skyblue);
+    filter: blur(187px);
+    position: absolute;
+    right: -127px;
+    top: 8px;
+}
+
 .accordion {
     --bs-accordion-border-color: transparent !important;
     max-width: 830px !important;
