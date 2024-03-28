@@ -450,6 +450,9 @@ ul {
     background: var(--fc-blue);
     padding: 39px 39px 0px 40px;
 }
+.box:hover .zoom{
+    scale: 1.3;
+}
 
 .pt-44 {
     padding-top: 44px;
@@ -464,6 +467,9 @@ ul {
 }
 .pt-41{
     padding-top: 41px;
+}
+.cursor-pointer{
+    cursor: pointer;
 }
 
 
