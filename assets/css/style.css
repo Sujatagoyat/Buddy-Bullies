@@ -168,9 +168,7 @@
     background-size: cover
 }
 
-.gap-80 {
-    gap: 80px;
-}
+
 
 .pt-26 {
     padding-top: 26px;
@@ -200,7 +198,7 @@
 .hero-btn:hover{
     color: white;
     background: var(--fc-blue);
-    box-shadow: 10px 10px 19px -4px var(--fc-white);
+    box-shadow: 2px 1px 19px -4px var(--fc-white);
     border: 1px solid var(--fc-white);
     transition: 0.2s linear;
 }
@@ -229,7 +227,7 @@
 .btnn:hover{
     color: white;
     background: var(--fc-blue);
-    box-shadow: 10px 10px 19px -4px var(--fc-white);
+    box-shadow: 2px 1px 19px -4px var(--fc-white);
     border: 1px solid var(--fc-white);
     transition: 0.2s linear;
 }
@@ -398,7 +396,7 @@
     height: var(--bs-accordion-btn-icon-width);
     margin-left: auto;
     content: "";
-    background-image: url(../image/up-arrow.png) !important;
+    background-image: url(../image/bottom-arrow.png) !important;
     background-repeat: no-repeat;
     background-size: var(--bs-accordion-btn-icon-width);
     transition: var(--bs-accordion-btn-icon-transition);
@@ -458,7 +456,7 @@
 }
 
 .zoom:hover {
-    scale: 1.3;
+    scale: 1.2;
 }
 
 .mb-30 {
@@ -705,7 +703,7 @@ ul {
     }
 
     .cross span:nth-child(1) {
-        transform: rotate(50deg) translateY(25px);
+        transform: rotate(53deg) translateY(25px);
         transition: all 300ms linear;
         position: relative;
         top: -7px;
@@ -718,7 +716,7 @@ ul {
     }
 
     .cross span:nth-child(3) {
-        transform: rotate(-52deg) translateY(-27px);
+        transform: rotate(-49deg) translateY(-28px);
         transition: all 300ms linear;
         position: relative;
         top: 0;
@@ -726,6 +724,9 @@ ul {
 
     .bg-clr-blue {
         background: var(--fc-blue);
+    }
+    .gap-10 {
+        gap: 30px;
     }
 }
 
@@ -754,8 +755,8 @@ ul {
         border: 1px solid transparent;
     }
     .topBtn {
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         background: var(--fc-skyblue);
         border-radius: 50%;
         /* display: none; */
@@ -847,6 +848,9 @@ ul {
     }
     .row-gap-41{
         row-gap: 41px;
+    }
+    .gap-lg-80 {
+        gap: 80px;
     }
 }
 
