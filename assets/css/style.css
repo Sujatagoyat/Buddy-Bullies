@@ -205,6 +205,14 @@
     border: 1px solid var(--fc-white);
     transition: 0.2s linear;
 }
+.linear-gradient{
+    background: linear-gradient(180deg, rgba(0, 10, 26, 0) 0%, #000A1A 100%);
+     height: 230px;
+     /* min-width: 1920px !important; */
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+}
 
 .flex-grow {
     flex-grow: 1 !important;
@@ -305,7 +313,7 @@
     background-image: url(../image/timeline-img.png);
     border-radius: 20px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
