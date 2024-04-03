@@ -228,7 +228,7 @@
     border-radius: 45.5px;
 }
 .btnn:hover{
-    color: white;
+    color: var(--fc-white);
     background: var(--fc-blue);
     box-shadow: 2px 1px 19px -4px var(--fc-white);
     border: 1px solid var(--fc-white);
@@ -556,7 +556,7 @@ ul {
     /* display: none; */
     position: fixed;
     bottom: 20px;
-    right: 5%;
+    right: 11%;
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
@@ -586,32 +586,6 @@ ul {
       box-shadow: 0px 3px 15px 3px var(--fc-white);;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 768px) {
@@ -706,7 +680,7 @@ ul {
     }
 
     .cross span:nth-child(1) {
-        transform: rotate(53deg) translateY(25px);
+        transform: rotate(52deg) translateY(25px);
         transition: all 300ms linear;
         position: relative;
         top: -7px;
@@ -844,7 +818,7 @@ ul {
         padding-bottom: 181px;
     }
     .pb-lg-34{
-        padding-bottom: 10px !important;
+        padding-bottom: 34px !important;
     }
     .pb-lg-123{
         padding-bottom: 150px;
