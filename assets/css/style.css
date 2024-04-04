@@ -273,6 +273,9 @@
     top: 226px;
     z-index: -1;
 }
+.blur_filter{
+    backdrop-filter: blur(150px);
+}
 
 
 /* =============================== roadmap ========================================== */
@@ -332,7 +335,7 @@
     width: 43px;
     height: 43px;
     right: -22px;
-    background-image: url(../image/circle-bg-img.png);
+    background-image: url(../image/svg/timeline-circle.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -595,7 +598,7 @@ ul {
       box-shadow: 0 0 0 0px var(--fc-white);
     }
     100% {
-      box-shadow: 0px 3px 15px 3px var(--fc-white);;
+      box-shadow: 0px 2px 15px 3px var(--fc-white);;
     }
   }
 
