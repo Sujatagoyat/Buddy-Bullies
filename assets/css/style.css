@@ -170,8 +170,8 @@
     /* background-position: center; */
     background-size: cover
 }
-.min_vh_70{
-min-height: 70vh;
+.min_vh_80{
+min-height: 80vh;
 }
 
 
@@ -214,6 +214,7 @@ min-height: 70vh;
      width: 100%;
      position: absolute;
      bottom: 0;
+     z-index: -1;
 }
 
 .flex-grow {
@@ -273,7 +274,7 @@ min-height: 70vh;
     position: absolute;
     right: 290px;
     top: 226px;
-    z-index: -1;
+    z-index: -2;
 }
 .blur_filter{
     backdrop-filter: blur(150px);
@@ -662,6 +663,16 @@ ul {
         font-size: var(--fs-sm);
     }
     .lh-45{
+        line-height: 30px;
+    }
+    :root{
+        --fs-2xl: 30px;
+        --fs-md: 16px;
+    }
+    .lh-86 {
+        line-height: 45px;
+    }
+    .lh-41 {
         line-height: 30px;
     }
     
