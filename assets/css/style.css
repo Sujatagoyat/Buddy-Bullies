@@ -170,7 +170,9 @@
     /* background-position: center; */
     background-size: cover
 }
-
+.min_vh_70{
+min-height: 70vh;
+}
 
 
 .pt-26 {
@@ -421,6 +423,12 @@
     background-repeat: no-repeat;
     background-size: var(--bs-accordion-btn-icon-width);
     transition: var(--bs-accordion-btn-icon-transition);
+    /* transform-origin: center; */
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-active-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+    transform-origin: center !important ;
 }
 
 .accordion-button:focus {
@@ -708,6 +716,7 @@ ul {
         transition: all 300ms linear;
         position: relative;
         top: -7px;
+        transform-origin: center;
     }
 
     .cross span:nth-child(2) {
@@ -721,6 +730,7 @@ ul {
         transition: all 300ms linear;
         position: relative;
         top: 0;
+        transform-origin:center;
     }
 
     .bg-clr-blue {
@@ -771,7 +781,9 @@ ul {
         z-index: 3;
         /* box-shadow: 0px 3px 15px 3px var(--fc-white); */
     }
-
+    .min_vh_100{
+        height: 100%;
+    }
 }
 
 @media (min-width:992px) {
@@ -853,6 +865,7 @@ ul {
     .gap-lg-80 {
         gap: 80px;
     }
+    
 }
 
 @media (min-width:1200px) {
