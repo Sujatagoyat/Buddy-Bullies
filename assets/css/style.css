@@ -260,7 +260,7 @@
     background: var(--fc-skyblue);
     filter: blur(200px);
     position: absolute;
-    right: -127px;
+    right: 0;
     bottom: -49px;
 }
 .img-ellipse{
@@ -281,6 +281,9 @@
 /* =============================== roadmap ========================================== */
 .py-30 {
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pb-30{
     padding-bottom: 30px;
 }
 .roadmap-ellipse{
@@ -308,9 +311,9 @@
     content: '';
     position: absolute;
     width: 6px;
-    top: 63px;
+    top: 0px;
     /* bottom: 218px; */
-    bottom: 0;
+    bottom: -183px;
     left: 50%;
     margin-left: -3px;
     background-image: url(../image/timeline-img.png);
@@ -322,7 +325,7 @@
 
 /* Container around content */
 .timeline-container {
-    padding: 10px 40px;
+    padding:    0px 40px;
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -339,7 +342,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    top: 23px;
+    top: 0px;
     border-radius: 50%;
     z-index: 1;
 }
@@ -361,7 +364,7 @@
 
 /* The actual content */
 .content {
-    padding: 20px 30px;
+    padding: 0px 30px;
     /* background-color: white; */
     position: relative;
     border-radius: 6px;
@@ -373,13 +376,17 @@
 
 /* ======================================= FAQ Accordion ============================================== */
 .faq-ellipse{
-    width: 233px;
+    /* width: 233px;
     height: 233px;
     background: var(--fc-skyblue);
-    filter: blur(187px);
+    filter: blur(187px); */
     position: absolute;
-    right: -127px;
-    top: 8px;
+    right: 0px;
+    top: -484px;
+    z-index: -1;
+}
+.max-w-233{
+    max-width: 233px;
 }
 
 .accordion {
@@ -421,8 +428,9 @@
 }
 
 .accordion-body {
-    padding-top: 0px !important;
-    padding-bottom: 21px !important;
+    /* padding-top: 0px !important;
+    padding-bottom: 21px !important; */
+    padding: 0 30px 20px 30px !important;
 }
 
 /* ======================================= team ====================================== */
@@ -470,7 +478,7 @@
 }
 
 .zoom:hover {
-    scale: 1.2;
+    scale: 1.1;
 }
 
 .mb-30 {
@@ -512,11 +520,11 @@ ul {
 .box {
     max-width: 426px;
     width: 100%;
-    /* max-height: 511px; */
-    /* height: 100%; */
+    min-height: 511px;
+    height: 100%;
     border-radius: 20px;
     background: var(--fc-blue);
-    padding: 39px 39px 0px 40px;
+    padding: 10px 20px;
 }
 /* .box:hover{
     box-shadow: 0px 3px 15px 3px var(--fc-white);
@@ -608,10 +616,11 @@ ul {
     /* Place the timelime to the left */
     .timeline::after {
         left: 31px;
+        bottom: -39px;
     }
 
     .mb-146 {
-        margin-bottom: 0;
+        margin-bottom: 40px;
     }
 
     /* Full-width containers */
@@ -833,7 +842,7 @@ ul {
         padding-bottom: 181px;
     }
     .pb-lg-34{
-        padding-bottom: 34px !important;
+        padding-bottom: 2px !important;
     }
     .pb-lg-123{
         padding-bottom: 150px;
