@@ -213,8 +213,9 @@ min-height: 80vh;
      /* min-width: 1920px !important; */
      width: 100%;
      position: absolute;
-     bottom: 0;
-     z-index: -1;
+     bottom: -12px;
+     z-index: 1;
+     filter: blur(7px);
 }
 
 .flex-grow {
@@ -657,6 +658,13 @@ ul {
     .right {
         left: 0%;
     }
+    .justify_content_center{
+        justify-content: center;
+       
+    }
+    .align_items_center{
+        align-items: center;
+    }
 }
 @media (max-width:576px) {
     .text-30{
@@ -840,8 +848,8 @@ ul {
         background-repeat: no-repeat;
     }
 
-    .pt-lg-200 {
-        padding-top: 200px;
+    .pt-lg-100 {
+        padding-top: 100px;
     }
 
     .max-w-338 {
@@ -876,7 +884,9 @@ ul {
     .gap-lg-80 {
         gap: 80px;
     }
-    
+    .pb-lg-100{
+        padding-bottom: 100px;
+    }
 }
 
 @media (min-width:1200px) {

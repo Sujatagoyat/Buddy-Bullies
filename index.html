@@ -42,7 +42,7 @@
         <p class="ff-poppins color-white fw-medium text-20 lh-41 max-w-547">Semper in egestas risus id tempus.
           Pellentesque dolor eros sollicitudin feugiat ut odio semper. Mattis fermentum eget ut vestibulum
           dolor diam</p>
-        <button class="fw-medium text-25 ff-poppins color-black hero-btn">Get Started</button>
+        <button class="fw-medium text-25 ff-poppins color-black hero-btn position-relative z-2">Get Started</button>
       </div>
     </div>
     <div class="linear-gradient "></div>
@@ -56,7 +56,7 @@
           <div class="img-ellipse d-lg-block d-none"></div>
           <img class="w-100 max-w-574" src="./assets/image/elephant.png" alt="elephant.png">
         </div>
-        <div class="col-lg-6 d-flex align-it ems-center justify-co ntent-center flex-column">
+        <div class="col-lg-6 d-flex align_items_center justify_content_center  flex-column">
           <div class="blank">
             <h3 class="ff-poppins color-white fw-semibold text-50 lh-68 pb-lg-48 pb-3 pt-lg-130 pt-30">Mint Your Bat</h3>
             <p class="ff-poppins color-white fw-medium text-30 lh-40 mb-0 ">Minting: 1,5 SOL</p>
@@ -199,7 +199,7 @@
   <p class="ff-poppins color-white fw-medium text-30 lh-45 text-center max-w-786 mx-auto">And this just the begining ,
     the team is working on more suprises for our community. Buddybullies stronger together !!</p>
   <!-- ====================================== FAQ-accordion ========================================= -->
-  <section id="Faq " class="position-relative overflow- x-hi dden">
+  <section id="Faq" class="position-relative overflow- x-hi dden">
     <!-- <div class="faq-ellipse d-lg-block d-none"></div> -->
     <div class="faq-ellipse d-lg-block d-none">
       <img class="max- w-233 w- 100"  src="./assets/image/svg/faq-ellipse.svg" alt="faq-ellipse.svg">
@@ -280,8 +280,8 @@
   <!-- ===================================== Team section ======================================== -->
   <section id="Team">
     <div class="container">
-      <h1 class="fw-semibold text-50 lh-68 ff-poppins text-center color-white mt-lg-121 mt-5">Our Team</h1>
-      <div class="row justify-content-center align-items-center">
+      <h1 class="fw-semibold text-50 lh-68 ff-poppins text-center color-white pt-lg- 121 pt-5">Our Team</h1>
+      <div class="row justify-content-center align-items-center pb-lg-100">
         <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center flex-column pt-lg-0 pt-2">
           <div class="zoom">
             <img class="w-100 w-293 h-312 zoom cursor-pointer" src="./assets/image/team-1.png" alt="team-1.png">
@@ -290,26 +290,30 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center flex-column pt-lg-0 pt-2">
-          <img class="w-100 w-293 h-312 zoom cursor-pointer" src="./assets/image/team-2.png" alt="team-2.png">
-          <h4 class="color-white ff-poppins fw-semibild text-30 lh-41 text-center pt-32 mb-0">Solvador Bulli </h4>
-          <p class="color-white ff-poppins fw-normal text-18 lh-25 text-center mb-0">Artist</p>
+          <div class="zoom">
+            <img class="w-100 w-293 h-312 zoom cursor-pointer" src="./assets/image/team-2.png" alt="team-2.png">
+            <h4 class="color-white ff-poppins fw-semibild text-30 lh-41 text-center pt-32 mb-0">Solvador Bulli </h4>
+            <p class="color-white ff-poppins fw-normal text-18 lh-25 text-center mb-0">Artist</p>
+          </div>
         </div>
         <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center flex-column pt-lg-0 pt-2 pb-lg-0 pb-5 ">
-          <img class=" w-100  w-293 h-312 zoom cursor-pointer" src="./assets/image/team-3-img.png" alt="team-3.png">
-          <h4 class="color-white ff-poppins fw-semibild text-30 lh-41 text-center pt-32 mb-0">Meta Bully </h4>
-          <p class="color-white ff-poppins fw-normal text-18 lh-25 text-center mb-0">Developer</p>
+          <div class="zoom">
+            <img class=" w-100  w-293 h-312 zoom cursor-pointer" src="./assets/image/team-3-img.png" alt="team-3.png">
+            <h4 class="color-white ff-poppins fw-semibild text-30 lh-41 text-center pt-32 mb-0">Meta Bully </h4>
+            <p class="color-white ff-poppins fw-normal text-18 lh-25 text-center mb-0">Developer</p>
+          </div>
         </div>
       </div>
       
     </div>
   </section>
   <!-- ====================================== footer ============================================== -->
-  <section class="footer-bg-img bg-clr-blue" id="Join">
-    <div class="container">
-      <p class=" fw-semibold text-50 lh-68 ff-poppins color-white text-center mb-lg-221 mb-30 pt-lg-200 pt-50">JOIN US</p>
+  <section class="footer-bg-img bg-clr-blue" >
+    <div class="container" >
+      <p class=" fw-semibold text-50 lh-68 ff-poppins color-white text-center mb-lg-221 mb-30 pt-lg-100 pt-50">JOIN US</p>
       <div class="row justify-content-between pb-5 ">
         <div class="col-lg-4 ">
-          <h4 class="fw-medium text-30 lh-37 color-white ff-poppins">LOGO</h4>
+          <h4 class="fw-medium text-30 lh-37 color-white ff-poppins" id="Join">LOGO</h4>
           <p class="color-white ff-popins text-16 lh-24 fw-normal max-w-338">Aenean arcu sed rhoncus sapien euismod
             cursus morbi lacus, blandit. Placerat tortor duis fames cras pellentesque dui adipiscing neque gravida.
             Sociis neque consectetur id quis pharetra.</p>
