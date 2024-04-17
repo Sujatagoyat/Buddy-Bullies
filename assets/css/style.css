@@ -185,7 +185,8 @@ min-height: 80vh;
     width: 0;
     height: 1px;
     background: var(--fc-white);
-    left: 0;
+    left: 50%;
+    transform: translateX(50%);
     bottom: -4px;
     transition: all 200ms linear;
 }
